@@ -1,0 +1,186 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+.big-heading {
+  color: #fff;
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0rem 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.title-image {
+  -ms-transform: rotate(25deg);
+  /* IE 9 */
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+  right: 5%
+}
+
+.feature {
+  display: inline-block;
+  /* padding: 7% 15%; */
+  /* padding-bottom: 10%; */
+  padding: 8%;
+}
+
+.feature-title {
+  font-family: "Montserrat-bold";
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.feature-description {
+  /* color: #8f8f8f; */
+  display: inline-block;
+  /* width: 40%; */
+}
+
+.feature-icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.feature-icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial */
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  /* make it circle */
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.press-image {
+  width: 10%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {}
+
+/* Pricing */
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* .cta-h3 {
+  color: #fff;
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+  width: 60%;
+  margin: 0 auto;
+} */
+.media-icon {
+  margin: 20px 10px;
+}
+
+/* Sections */
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Title section */
+
+#title .container-fluid {
+  text-align: left;
+  padding: 3% 15% 7%;
+}
+
+/* Testimonials section */
+#testimonials {
+  background-color: #ef8172;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+#pricing {
+  padding: 100px;
+}
+
+#features {
+  position: relative;
+}
+
+
+#footer {
+  padding: 3% 5% 3%;
+}
+
+@media (max-width: 1028px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+@media (min-width: 1456px) {
+  .navbar {
+    padding: 0 9rem 4.5rem;
+  }
+}
